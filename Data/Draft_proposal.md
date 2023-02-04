@@ -18,12 +18,12 @@
   
   I have extracted Doctors dataset from CMS: https://www.cms.gov/search/cms?keys=Patients%20records&sort=&searchpage 
   But for patients dataset i need to do Web Scrapping by choosing an appropriate website. 
-  ## ANALYIS
+  ## ANALYSIS
   In this project my target variable or unit of analysis will be calculating why wait time with the help of Schedule date and appointment date.
   Initally I want to start with clustering then apply ML Algorithms to find model performane and efficency.
   
   ## OUTCOME:
-  Outcome will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In another way it might also help patients to understand problem behind longer wait times and act accordingly.  
+  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In another way it might also help patients to understand problem behind longer wait times and act accordingly.  
     
    
     
