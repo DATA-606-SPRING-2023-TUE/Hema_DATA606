@@ -1,7 +1,7 @@
  # Increase in Patients Wait Time  for Doctors Appointment
   
   ## ABSTRACT
-   I have choosen this project to find answer/ solution for the problem which i have personally faced. It is taking approximately 1 month of time to get doctors appointment espically for a dermatologist. In this 1 month of time the porblem may become more serious, means we are taking treatment after its severity increases. This leads to heavy dose of medicine. 
+   I have choosen this project to find answer/ solution for the problem which i have personally faced. It is taking approximately 1 month of time to get doctors appointment espically for a dermatologist. In this 1 month of time the porblem may become more serious, means we are taking treatment after its severity increases. This leads to usage of heavy dose medicine. 
    
    ## PROBLEMS / QUESTIONS 
    Why can we get treated when it is in early stage? 
