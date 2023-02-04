@@ -10,8 +10,8 @@
    
    Finding the data is a very though job here because Doctors data and Patients data a very confindetial. Here i need to have two different datasets and have to combine them.
    
-    1. Doctors Dataset: doctors name, clinical name, primary specialization , secondary specialization, city, state, gender,age, working-hospital names, availability-date, time.
-    2. Patient's Dataset: patient name, age, gender, patient address, city, state, problem, severity, family history, scheduled date, appointment date.
+   1. Doctors Dataset: doctors name, clinical name, primary specialization , secondary specialization, city, state, gender,age, working-hospital names, availability-date, time.
+   2. Patient's Dataset: patient name, age, gender, patient address, city, state, problem, severity, family history, scheduled date, appointment date.
     
    
     
