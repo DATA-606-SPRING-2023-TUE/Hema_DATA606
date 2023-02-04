@@ -5,9 +5,13 @@
    
    ## PROBLEMS / QUESTIONS 
    Why can we get treated when it is in early stage? 
+   
    Why it's taking 1 month of time for a common man to get doctors appopintment?
+   
    Do we have shortage of Doctors in USA or patients are more vunerable to skin problems ?.
+   
    Is their any economy related effect?
+   
    These all are the questions for which i want to find answers
    
    ## DATASET
