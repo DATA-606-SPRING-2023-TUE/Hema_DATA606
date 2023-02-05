@@ -1,7 +1,7 @@
  # Increase in Patients Wait Time  for Doctors Appointment
   
   ## ABSTRACT
-   I have choosen this project to find answer/ solution for the problem which i have personally faced. It is taking approximately 1 month of time to get doctors appointment espically for a dermatologist. In this 1 month of time the porblem may become more serious, means we are taking treatment after its severity increases. This leads to usage of heavy dose medicine. 
+   My Project deals with the reason behind long wait times to get a doctor appointment. I have chosen this project to find answer/solution for the problem which i have personally faced. It is approximately taking 1 month of wait time in the future to get a doctors appointment espically for a Dermatologist. In this 1 month of time the problem might become severe meaning we are taking treatment after its severity increases. This leads to usage of heavy dose medicine. 
    
    ## PROBLEMS / QUESTIONS 
    Why can we get treated when it is in early stage? 
@@ -23,11 +23,11 @@
   I have extracted Doctors dataset from CMS: https://www.cms.gov/search/cms?keys=Patients%20records&sort=&searchpage 
   But for patients dataset i need to do Web Scrapping by choosing an appropriate website. 
   ## ANALYSIS
-  In this project my target variable or unit of analysis will be calculating why wait time with the help of Schedule date and appointment date.
+  In this project my target variable or unit of analysis will be calculating why we have longer wait times with the help of Schedule date and appointment date.
   Initally I want to start with clustering then apply ML Algorithms to find model performane and efficency.
   
   ## OUTCOME:
-  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In another way it might also help patients to understand problem behind longer wait times and act accordingly.  
+  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In other way it will also help patients to understand problem behind longer wait times and act accordingly.  
     
    
     
