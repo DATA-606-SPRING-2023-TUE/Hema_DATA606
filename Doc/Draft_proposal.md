@@ -27,8 +27,4 @@
   Initally I want to start with clustering then apply ML Algorithms to find model performane and efficency.
   
   ## OUTCOME:
-  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In other way it will also help patients to understand problem behind longer wait times and act accordingly.  
-    
-   
-    
-    
+  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In other way it will also help patients to understand problem behind longer wait times and act accordingly. 
