@@ -1,30 +1,44 @@
- # Increase in Patients Wait Time  for Doctors Appointment
-  
-  ## ABSTRACT
-   My Project deals with the reason behind long wait times to get a doctor appointment. I have chosen this project to find answer/solution for the problem which i have personally faced. It is approximately taking 1 month of wait time in the future to get a doctors appointment espically for a Dermatologist. In this 1 month of time the problem might become severe meaning we are taking treatment after its severity increases. This leads to usage of heavy dose medicine. 
-   
-   ## PROBLEMS / QUESTIONS 
-   Why can we get treated when it is in early stage? 
-   
-   Why it's taking 1 month of time for a common man to get doctors appopintment?
-   
-   Do we have shortage of Doctors in USA or patients are more vunerable to skin problems ?.
-   
-   Is their any economy related effect?
-   
-   These all are the questions for which i want to find answers
-   
-   ## DATASET
-   Here i need to have two different datasets and have to combine them.
-   
-   1. Doctors Dataset: doctors name, clinical name, primary specialization , secondary specialization, city, state, gender,age, working-hospital names, availability-date, time.
-   2. Patient's Dataset: patient name, age, gender, patient address, city, state, problem, severity, family history, scheduled date, appointment date.
-  
-  I have extracted Doctors dataset from CMS: https://www.cms.gov/search/cms?keys=Patients%20records&sort=&searchpage 
-  But for patients dataset i need to do Web Scrapping by choosing an appropriate website. 
-  ## ANALYSIS
-  In this project my target variable or unit of analysis will be calculating why we have longer wait times with the help of Schedule date and appointment date.
-  Initally I want to start with clustering then apply ML Algorithms to find model performane and efficency.
-  
-  ## OUTCOME:
-  End result will be the reason behind longer wait time for doctors appointment. In future this would help doctors to fill the gap like increasing availability or increaisng doctors based on number of patients. In other way it will also help patients to understand problem behind longer wait times and act accordingly. 
+ ## Image Caption Generator
+
+An image caption generator basically generates decsriptions of what is going on in a given image. This is a natural human ability to look at an image and pay attention to the curcial information in the image and describe it in just a few words. Can a machine do this? Using tools such as natural language processing and object detection (computer vision), it is possible to train a model to do this task. This will be explored in this project. 
+
+Image caption generator bears applications in assistive technology and can help visually imapired to infer their surroundings. 
+It can also be extended to uses such as map descriptions for users/self-driven cars. 
+The primary goal of the project will be to learn Deep learning and NLP tools to build a model that can analyse the images and comprehend the meaning from given captions.
+
+<img src="draft_image.jpg" width="500"/>
+
+### Dataset:
+
+The dataset that will be used for this is the Flickr8k which can be found here:
+https://www.kaggle.com/datasets/e1cd22253a9b23b073794872bf565648ddbe4f17e7fa9e74766ad3707141adeb
+This dataset consists of about 8000 image files and captions for the same. 
+
+References that will be used are:
+1. https://arxiv.org/pdf/1502.03044.pdf
+2. https://github.com/Siddharth1698/Image-Captioning-with-Inception-LSTM
+
+### Methods:
+
+The model will be in the form of an decoder-encoder. The decoder will be a Convolutional neural network. This part will be used to understand the images and detect the core information in them. Pretrained CNN models such as VGG, AlexNet or LeeNet will be used to learn the information from the images. The output of the CNN will be input to the encoder. The encoder will be a series of LSTM's (Long short term memory - a recurrent neiral network - https://en.wikipedia.org/wiki/Long_short-term_memory), which will generate the caption based on the output information from the decoder. We will be using PyTorch to implement these models. 
+
+We will be training our model using mini-batch gradient descent. We will be training our model in epochs. The optimizer will train the model by reducing the loss function which is calculated using the generated words and the words in the exisitng captions (while training). These are aspects of the project that we will figure out as we go along working on the project.
+
+
+### Deployment:
+
+A simple web application will be built using streamlit that will ask the user for an image and generate a caption for the given image. 
+
+### Outcome:
+
+Through this project we will build an image caption generator that will generate captions for a user given image. 
+
+### Next steps and work distribution:
+
+As our dataset consists of just images (.jpg files)and captions (a text file), we do not have any EDA to perform. The next step would be to start building the decoder. Before this we will be brushing up PyTorch basics and figure out how we should input our data into the decoder (CNN) model.
+
+Work distribution: Hema will figure out how we need to input our data into the model, and the hyperparameters needed for training the model (hyperparameters of the model as well as the optimizing process). Sravya will build the decoder model using pretrained CNN models in PyTorch. 
+
+
+
+
