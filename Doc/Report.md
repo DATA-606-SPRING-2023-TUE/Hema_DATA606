@@ -49,7 +49,7 @@ We train our model for 1, 10 and 30 epochs. The observations we made based on th
 2. For the same reason as above, our model easily identifies people, balls, grass. 
 3. When trained for only one epoch, the model learns only a few words and generates the same caption for different images although not for all of them. 
 
-<img src="Doc/Images/WhatsApp Image 2023-05-09 at 3.59.01 PM.jpeg" width="600"/>
+<img src="Images/WhatsApp Image 2023-05-09 at 3.59.01 PM.jpeg" width="600"/>
 <img src="Images/results.jpg" width="600"/>
 
 4. When the number of epochs are increased from 1 to 10 and 30, we see imrpovement. The model generates unique captions for each of the test images and does a good job of identifying some core elements of the image. 
