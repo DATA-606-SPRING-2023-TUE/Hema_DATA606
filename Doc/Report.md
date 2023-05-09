@@ -3,7 +3,7 @@
 ### Team: Hema Kavuri and Sravya Pamula
 Youtube video link: https://www.youtube.com/watch?v=TZ0Ue8qF80Y&ab_channel=SravyaPamula
 
-Presentation ppt link: https://github.com/Pam2020/Sravya_Data606/blob/main/docs/capstone.pptx
+Presentation ppt link: https://github.com/HemaKavuri/Hema_DATA606/blob/main/Doc/Capstone.pptx
 
 An image caption generator basically generates decsriptions of what is going on in a given image. This is a natural human ability to look at an image and pay attention to the curcial information in the image and describe it in just a few words. Can a machine do this? Using tools such as natural language processing and object detection (computer vision), it is possible to train a model to do this task. This will be explored in this project.
 
