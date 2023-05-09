@@ -6,7 +6,7 @@ An image caption generator basically generates decsriptions of what is going on 
 
 Image caption generator bears applications in assistive technology and can help visually imapired to infer their surroundings. It can also be extended to uses such as map descriptions for users/self-driven cars. The primary goal of the project will be to learn Deep learning and NLP tools to build a model that can analyse the images and comprehend the meaning from given captions.
 
-<img src="Doc/Images/draft_image.jpg" width="800"/>
+<img src="Images/draft_image.jpg" width="800"/>
 
 ### Dataset:
 
